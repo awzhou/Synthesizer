@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Synthesizer</string>
+    <string name="synth_scale">Play Scale</string>
+    <string name="synth_gsharp">G♯</string>
+    <string name="synth_g">G</string>
+    <string name="synth_fsharp">F♯</string>
+    <string name="synth_f">F</string>
+    <string name="synth_e">E</string>
+    <string name="synth_dsharp">D♯</string>
+    <string name="synth_d">D</string>
+    <string name="synth_csharp">C♯</string>
+    <string name="synth_c">C</string>
+    <string name="synth_b">B</string>
+    <string name="synth_bflat">B♭</string>
+    <string name="synth_a">A</string>
+</resources>
