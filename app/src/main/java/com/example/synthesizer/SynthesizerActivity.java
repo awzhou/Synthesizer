@@ -733,30 +733,412 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
 
         part[0] = new Note(noteB4, 27 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120);
 
-        part[1] = new Note(noteFsharp, QUARTER_NOTE_120);
+        part[1] = new Note(noteG, QUARTER_NOTE_120);
 
-        part[2] = new Note(noteFsharp, 6 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120 + EIGHTH_NOTE_120);
+        part[2] = new Note(noteG, 6 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120 + EIGHTH_NOTE_120);
 
-        part[3] = new Note(noteFsharp, EIGHTH_NOTE_120);
+        part[3] = new Note(noteG, EIGHTH_NOTE_120);
 
-        part[4] = new Note(noteFsharp, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
-        part[5] = new Note(noteFsharp, EIGHTH_NOTE_120);
-        part[6] = new Note(noteFsharp, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[4] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[5] = new Note(noteG, EIGHTH_NOTE_120);
+        part[6] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
 
-        part[7] = new Note(noteFsharp, EIGHTH_NOTE_120);
-        part[8] = new Note(noteFsharp, QUARTER_NOTE_120);
-        part[9] = new Note(noteFsharp, EIGHTH_NOTE_120);
-        part[10] = new Note(noteFsharp, EIGHTH_NOTE_120);
+        part[7] = new Note(noteG, EIGHTH_NOTE_120);
+        part[8] = new Note(noteG, QUARTER_NOTE_120);
+        part[9] = new Note(noteG, EIGHTH_NOTE_120);
+        part[10] = new Note(noteG, EIGHTH_NOTE_120);
 
-        part[11] = new Note(noteB, QUARTER_NOTE_120);
+        part[11] = new Note(noteCsharp, QUARTER_NOTE_120);
 
         return part;
     }
 
     private Note[] getVln1() {
-        Note[] part = new Note[200];
+        Note[] part = new Note[353];
 
-        //TODO: finish
+        part[0] = new Note(noteB4, 8 * (HALF_NOTE_120 + QUARTER_NOTE_120));
+
+        part[1] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[2] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[3] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[4] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[5] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[6] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[7] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[8] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[9] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[10] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[11] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[12] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[13] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[14] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[15] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[16] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[17] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[18] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[19] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[20] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[21] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[22] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[23] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[24] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+
+        part[25] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[26] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[27] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[28] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[29] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[30] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[31] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[32] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[33] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[34] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[35] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[36] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[37] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[38] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[39] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[40] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[41] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[42] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[43] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[44] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[45] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[46] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[47] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[48] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+
+        part[49] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[50] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[51] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[52] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[53] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[54] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[55] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[56] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[57] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[58] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[59] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[60] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[61] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[62] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[63] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[64] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[65] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[66] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[67] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[68] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[69] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[70] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[71] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[72] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[73] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[74] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[75] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[76] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[77] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[78] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[79] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[80] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[81] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[82] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[83] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[84] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[85] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[86] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[87] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[88] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[89] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[90] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[91] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[92] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[93] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[94] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[95] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[96] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[97] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[98] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[99] = new Note(noteGsharp, SIXTEENTH_NOTE_120);
+        part[100] = new Note(noteGsharp, SIXTEENTH_NOTE_120);
+        part[101] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[102] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[103] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[104] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[105] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[106] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[107] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[108] = new Note(noteA4, SIXTEENTH_NOTE_120);
+
+        part[109] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[110] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[111] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[112] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[113] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[114] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[115] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[116] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[117] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[118] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[119] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[120] = new Note(noteB4, SIXTEENTH_NOTE_120);
+
+        part[121] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[122] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[123] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[124] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[125] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[126] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[127] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[128] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[129] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[130] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[131] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[132] = new Note(noteA4, SIXTEENTH_NOTE_120);
+
+        part[133] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[134] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[135] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[136] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[137] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[138] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[139] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[140] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[141] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[142] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[143] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[144] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[145] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[146] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[147] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[148] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[149] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[150] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[151] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[152] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[153] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[154] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[155] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[156] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[157] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[158] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[159] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[160] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[161] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[162] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[163] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[164] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[165] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[166] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[167] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[168] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[169] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[170] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[171] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[172] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[173] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[174] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[175] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[176] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[177] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[178] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[179] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[180] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[181] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[182] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[183] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[184] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[185] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[186] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[187] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[188] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[189] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[190] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[191] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[192] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[193] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[194] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[195] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[196] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[197] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[198] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[199] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[200] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[201] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[202] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[203] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[204] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[205] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[206] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[207] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[208] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[209] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[210] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[211] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[212] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[213] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[214] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[215] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[216] = new Note(noteC5, SIXTEENTH_NOTE_120);
+
+        part[217] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[218] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[219] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[220] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[221] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[222] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[223] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[224] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[225] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[226] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[227] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[228] = new Note(noteD5, SIXTEENTH_NOTE_120);
+
+        part[229] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[230] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[231] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[232] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[233] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[234] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[235] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[236] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[237] = new Note(noteFsharp5, 0); //1
+        part[238] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[239] = new Note(noteFsharp5, 0); //1
+        part[240] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[241] = new Note(noteFsharp5, 0); //1
+        part[242] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[243] = new Note(noteFsharp5, 0); //1
+        part[244] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+
+        part[245] = new Note(noteG5, 0); //1
+        part[246] = new Note(noteE5, EIGHTH_NOTE_120); //2
+        part[247] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[248] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[249] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[250] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[251] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[252] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[253] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[254] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[255] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[256] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[257] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[258] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[259] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[260] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[261] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[262] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[263] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[264] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[265] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[266] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[267] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[268] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[269] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[270] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[271] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[272] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[273] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[274] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[275] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[276] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[277] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[278] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[279] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[280] = new Note(noteC5, SIXTEENTH_NOTE_120);
+
+        part[281] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[282] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[283] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[284] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[285] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[286] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[287] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[288] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[289] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[290] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[291] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[292] = new Note(noteD5, SIXTEENTH_NOTE_120);
+
+        part[293] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[294] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[295] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[296] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[297] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[298] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[299] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[300] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[301] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[302] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[303] = new Note(noteE5, 0); //1
+        part[304] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[305] = new Note(noteE5, 0); //1
+        part[306] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+
+        part[307] = new Note(noteE5, 0); //1
+        part[308] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[309] = new Note(noteE5, 0); //1
+        part[310] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[311] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[312] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[313] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[314] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[315] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[316] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[317] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[318] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[319] = new Note(noteE5, 0); //1
+        part[320] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[321] = new Note(noteE5, 0); //1
+        part[322] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+
+        part[323] = new Note(noteE5, 0); //1
+        part[324] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[325] = new Note(noteE5, 0); //1
+        part[326] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[327] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[328] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[329] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[330] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[331] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[332] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[333] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[334] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[335] = new Note(noteBflat4, 0); //1
+        part[336] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+
+        part[337] = new Note(noteBflat4, 0); //1
+        part[338] = new Note(noteCsharp5, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
+        part[339] = new Note(noteBflat4, 0); //1
+        part[340] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[341] = new Note(noteBflat4, 0); //1
+        part[342] = new Note(noteCsharp5, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
+
+        part[343] = new Note(noteBflat4, 0); //1
+        part[344] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[345] = new Note(noteBflat4, 0); //1
+        part[346] = new Note(noteCsharp5, QUARTER_NOTE_120); //2
+        part[347] = new Note(noteBflat4, 0); //1
+        part[348] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[349] = new Note(noteBflat4, 0); //1
+        part[350] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+
+        part[351] = new Note(noteB4, 0); //1
+        part[352] = new Note(noteD5, QUARTER_NOTE_120); //2
 
         return part;
     }
@@ -765,6 +1147,390 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         Note[] part = new Note[200];
 
         //TODO: finish
+        part[0] = new Note(noteB4, 8 * (HALF_NOTE_120 + QUARTER_NOTE_120));
+
+        part[1] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[2] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[3] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[4] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[5] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[6] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[7] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[8] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[9] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[10] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[11] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[12] = new Note(noteD, SIXTEENTH_NOTE_120);
+
+        part[13] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[14] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[15] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[16] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[17] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[18] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[19] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[20] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[21] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[22] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[23] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[24] = new Note(noteE, SIXTEENTH_NOTE_120);
+
+        part[25] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[26] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[27] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[28] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[29] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[30] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[31] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[32] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[33] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[34] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[35] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[36] = new Note(noteD, SIXTEENTH_NOTE_120);
+
+        part[37] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[38] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[39] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[40] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[41] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[42] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[43] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[44] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[45] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[46] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[47] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[48] = new Note(noteE, SIXTEENTH_NOTE_120);
+
+        part[49] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[50] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[51] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[52] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[53] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[54] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[55] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[56] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[57] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[58] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[59] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[60] = new Note(noteD, SIXTEENTH_NOTE_120);
+
+        part[61] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[62] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[63] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[64] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[65] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[66] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[67] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[68] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[69] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[70] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[71] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[72] = new Note(noteE, SIXTEENTH_NOTE_120);
+
+        part[73] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[74] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[75] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[76] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[77] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[78] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[79] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[80] = new Note(noteB, SIXTEENTH_NOTE_120);
+        part[81] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[82] = new Note(noteCsharp, SIXTEENTH_NOTE_120);
+        part[83] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[84] = new Note(noteD, SIXTEENTH_NOTE_120);
+
+        part[85] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[86] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[87] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[88] = new Note(noteDsharp, SIXTEENTH_NOTE_120);
+        part[89] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[90] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[91] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[92] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[93] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[94] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[95] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[96] = new Note(noteE, SIXTEENTH_NOTE_120);
+
+        part[97] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[98] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[99] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[100] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[101] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[102] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[103] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[104] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[105] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[106] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[107] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[108] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        //start here : page 2, system 2, first measure
+        part[109] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[110] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[111] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[112] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[113] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[114] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[115] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[116] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[117] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[118] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[119] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[120] = new Note(noteB4, SIXTEENTH_NOTE_120);
+
+        part[121] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[122] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[123] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[124] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[125] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[126] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[127] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[128] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[129] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[130] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[131] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[132] = new Note(noteA4, SIXTEENTH_NOTE_120);
+
+        part[133] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[134] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[135] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[136] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[137] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[138] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[139] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[140] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[141] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[142] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[143] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[144] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[145] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[146] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[147] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[148] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[149] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[150] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[151] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[152] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[153] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[154] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[155] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[156] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[157] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[158] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[159] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[160] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[161] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[162] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[163] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[164] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[165] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[166] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[167] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[168] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[169] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[170] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[171] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[172] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[173] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[174] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[175] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[176] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[177] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[178] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[179] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[180] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[181] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[182] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[183] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[184] = new Note(noteF, SIXTEENTH_NOTE_120);
+        part[185] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[186] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[187] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[188] = new Note(noteD, SIXTEENTH_NOTE_120);
+        part[189] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[190] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[191] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[192] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[193] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[194] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[195] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[196] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[197] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[198] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[199] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[200] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[201] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[202] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[203] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+        part[204] = new Note(noteBflat4, SIXTEENTH_NOTE_120);
+
+        part[205] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[206] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[207] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[208] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[209] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[210] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[211] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[212] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[213] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[214] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[215] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[216] = new Note(noteC5, SIXTEENTH_NOTE_120);
+
+        part[217] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[218] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[219] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[220] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[221] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[222] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[223] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[224] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[225] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[226] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[227] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[228] = new Note(noteD5, SIXTEENTH_NOTE_120);
+
+        part[229] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[230] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[231] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[232] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[233] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[234] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[235] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[236] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[237] = new Note(noteFsharp5, 0); //1
+        part[238] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[239] = new Note(noteFsharp5, 0); //1
+        part[240] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[241] = new Note(noteFsharp5, 0); //1
+        part[242] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+        part[243] = new Note(noteFsharp5, 0); //1
+        part[244] = new Note(noteE5, SIXTEENTH_NOTE_120); //2
+
+        part[245] = new Note(noteG5, 0); //1
+        part[246] = new Note(noteE5, EIGHTH_NOTE_120); //2
+        part[247] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[248] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[249] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[250] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[251] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[252] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[253] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[254] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[255] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[256] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[257] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[258] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[259] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[260] = new Note(noteG, SIXTEENTH_NOTE_120);
+        part[261] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[262] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[263] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[264] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[265] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[266] = new Note(noteE, SIXTEENTH_NOTE_120);
+        part[267] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+        part[268] = new Note(noteFsharp, SIXTEENTH_NOTE_120);
+
+        part[269] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[270] = new Note(noteA4, SIXTEENTH_NOTE_120);
+        part[271] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[272] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[273] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[274] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[275] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[276] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[277] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[278] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[279] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[280] = new Note(noteC5, SIXTEENTH_NOTE_120);
+
+        part[281] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[282] = new Note(noteC5, SIXTEENTH_NOTE_120);
+        part[283] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[284] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[285] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[286] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[287] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[288] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[289] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[290] = new Note(noteB4, SIXTEENTH_NOTE_120);
+        part[291] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[292] = new Note(noteD5, SIXTEENTH_NOTE_120);
+
+        part[293] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[294] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[295] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[296] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[297] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[298] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[299] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[300] = new Note(noteE5, SIXTEENTH_NOTE_120);
+        part[301] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[302] = new Note(noteCsharp5, SIXTEENTH_NOTE_120);
+        part[303] = new Note(noteE5, 0); //1
+        part[304] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[305] = new Note(noteE5, 0); //1
+        part[306] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+
+        part[307] = new Note(noteE5, 0); //1
+        part[308] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[309] = new Note(noteE5, 0); //1
+        part[310] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[311] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[312] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[313] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[314] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[315] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[316] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[317] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[318] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[319] = new Note(noteE5, 0); //1
+        part[320] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[321] = new Note(noteE5, 0); //1
+        part[322] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+
+        part[323] = new Note(noteE5, 0); //1
+        part[324] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[325] = new Note(noteE5, 0); //1
+        part[326] = new Note(noteCsharp5, SIXTEENTH_NOTE_120); //2
+        part[327] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[328] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[329] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[330] = new Note(noteD5, SIXTEENTH_NOTE_120);
+        part[331] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[332] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[333] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[334] = new Note(noteFsharp5, SIXTEENTH_NOTE_120);
+        part[335] = new Note(noteBflat4, 0); //1
+        part[336] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+
+        part[337] = new Note(noteBflat4, 0); //1
+        part[338] = new Note(noteCsharp5, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
+        part[339] = new Note(noteBflat4, 0); //1
+        part[340] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[341] = new Note(noteBflat4, 0); //1
+        part[342] = new Note(noteCsharp5, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
+
+        part[343] = new Note(noteBflat4, 0); //1
+        part[344] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[345] = new Note(noteBflat4, 0); //1
+        part[346] = new Note(noteCsharp5, QUARTER_NOTE_120); //2
+        part[347] = new Note(noteBflat4, 0); //1
+        part[348] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+        part[349] = new Note(noteBflat4, 0); //1
+        part[350] = new Note(noteCsharp5, EIGHTH_NOTE_120); //2
+
+        part[351] = new Note(noteB4, 0); //1
+        part[352] = new Note(noteD5, QUARTER_NOTE_120); //2
 
         return part;
     }
