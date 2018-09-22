@@ -690,6 +690,93 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         return part;
     }
 
+    private Note[] getTbn() {
+        Note[] part = new Note[23];
+
+        part[0] = new Note(noteB4, 19 * (HALF_NOTE_120 + QUARTER_NOTE_120) + QUARTER_NOTE_120);
+
+        part[1] = new Note(noteFsharp, HALF_NOTE_120 + 7 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120);
+
+        part[2] = new Note(noteCsharp, 0); //1
+        part[3] = new Note(noteBflat, 0); //2
+        part[4] = new Note(noteFsharp, QUARTER_NOTE_120); //3
+
+        part[5] = new Note(noteCsharp, 0); //1
+        part[6] = new Note(noteBflat, 0); //2
+        part[7] = new Note(noteFsharp, 7 * (HALF_NOTE_120 + QUARTER_NOTE_120)); //3
+
+        part[8] = new Note(noteCsharp, 0); //1
+        part[9] = new Note(noteBflat, 0); //2
+        part[10] = new Note(noteFsharp, HALF_NOTE_120); //3
+
+        part[11] = new Note(noteCsharp, 0); //1
+        part[12] = new Note(noteBflat, 0); //2
+        part[13] = new Note(noteFsharp, HALF_NOTE_120); //3
+
+        part[14] = new Note(noteCsharp, 0); //1
+        part[15] = new Note(noteBflat, 0); //2
+        part[16] = new Note(noteFsharp, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //3
+
+        part[17] = new Note(noteCsharp, 0); //1
+        part[18] = new Note(noteBflat, 0); //2
+        part[19] = new Note(noteFsharp, EIGHTH_NOTE_120); //3
+
+        part[20] = new Note(noteD, 0); //1
+        part[21] = new Note(noteB, 0); //2
+        part[22] = new Note(noteB, QUARTER_NOTE_120); //3
+
+        return part;
+    }
+
+    private Note[] getTimp() {
+        Note[] part = new Note[12];
+
+        part[0] = new Note(noteB4, 27 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120);
+
+        part[1] = new Note(noteFsharp, QUARTER_NOTE_120);
+
+        part[2] = new Note(noteFsharp, 6 * (HALF_NOTE_120 + QUARTER_NOTE_120) + HALF_NOTE_120 + EIGHTH_NOTE_120);
+
+        part[3] = new Note(noteFsharp, EIGHTH_NOTE_120);
+
+        part[4] = new Note(noteFsharp, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[5] = new Note(noteFsharp, EIGHTH_NOTE_120);
+        part[6] = new Note(noteFsharp, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+
+        part[7] = new Note(noteFsharp, EIGHTH_NOTE_120);
+        part[8] = new Note(noteFsharp, QUARTER_NOTE_120);
+        part[9] = new Note(noteFsharp, EIGHTH_NOTE_120);
+        part[10] = new Note(noteFsharp, EIGHTH_NOTE_120);
+
+        part[11] = new Note(noteB, QUARTER_NOTE_120);
+
+        return part;
+    }
+
+    private Note[] getVln1() {
+        Note[] part = new Note[200];
+
+        //TODO: finish
+
+        return part;
+    }
+
+    private Note[] getVln2() {
+        Note[] part = new Note[200];
+
+        //TODO: finish
+
+        return part;
+    }
+
+    private Note[] getBass() {
+        Note[] part = new Note[150];
+
+        //TODO: finish
+
+        return part;
+    }
+
 
     private void playScale() {
         Song scale = new Song();
