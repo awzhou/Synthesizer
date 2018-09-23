@@ -246,7 +246,6 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
             case R.id.button_synth_schu:
                 scheduleSongs(500, getFl(), getOb(), getCl(), getBsn(), getHn(),
                         getTpt(), getTbn(), getTimp(), getVln1(), getVln2(), getBass());
-                //playSchu();
                 break;
         }
     }
@@ -305,13 +304,14 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
 
         part[1] = new Note(noteFsharp5, HALF_NOTE_120 + QUARTER_NOTE_120);
 
-        part[2] = new Note(noteD5, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[2] = new Note(noteB4, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[3] = new Note(noteBflat4, EIGHTH_NOTE_120);
         part[4] = new Note(noteB4, EIGHTH_NOTE_120);
         part[5] = new Note(noteCsharp5, EIGHTH_NOTE_120);
 
         part[6] = new Note(noteFsharp5, HALF_NOTE_120 + QUARTER_NOTE_120);
-        part[7] = new Note(noteD5, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+
+        part[7] = new Note(noteB4, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[8] = new Note(noteBflat4, EIGHTH_NOTE_120);
         part[9] = new Note(noteB4, EIGHTH_NOTE_120);
         part[10] = new Note(noteCsharp5, EIGHTH_NOTE_120);
@@ -405,14 +405,14 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
 
         part[1] = new Note(noteFsharp5, HALF_NOTE_120 + QUARTER_NOTE_120);
 
-        part[2] = new Note(noteD5, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[2] = new Note(noteB4, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[3] = new Note(noteBflat4, EIGHTH_NOTE_120);
         part[4] = new Note(noteB4, EIGHTH_NOTE_120);
         part[5] = new Note(noteCsharp5, EIGHTH_NOTE_120);
 
         part[6] = new Note(noteFsharp5, HALF_NOTE_120 + QUARTER_NOTE_120);
 
-        part[7] = new Note(noteD5, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
+        part[7] = new Note(noteB4, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[8] = new Note(noteBflat4, EIGHTH_NOTE_120);
         part[9] = new Note(noteB4, EIGHTH_NOTE_120);
         part[10] = new Note(noteCsharp5, EIGHTH_NOTE_120);
@@ -530,14 +530,14 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         part[5] = new Note(noteB, 0); //1
         part[6] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[7] = new Note(noteC, 0); //1
-        part[8] = new Note(noteA, QUARTER_NOTE_120); //2
+        part[8] = new Note(noteA, EIGHTH_NOTE_120); //2
 
         part[9] = new Note(noteC, 0); //1
         part[10] = new Note(noteA, QUARTER_NOTE_120); //2
         part[11] = new Note(noteB, 0); //1
         part[12] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[13] = new Note(noteD, 0); //1
-        part[14] = new Note(noteB, QUARTER_NOTE_120); //2
+        part[14] = new Note(noteB, EIGHTH_NOTE_120); //2
 
         part[15] = new Note(noteD, 0); //1
         part[16] = new Note(noteB, QUARTER_NOTE_120); //2
@@ -556,38 +556,38 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         part[27] = new Note(noteB, 0); //1
         part[28] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[29] = new Note(noteC, 0); //1
-        part[30] = new Note(noteA, QUARTER_NOTE_120); //2
+        part[30] = new Note(noteA, EIGHTH_NOTE_120); //2
 
         part[31] = new Note(noteC, 0); //1
         part[32] = new Note(noteA, QUARTER_NOTE_120); //2
         part[33] = new Note(noteB, 0); //1
         part[34] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[35] = new Note(noteD, 0); //1
-        part[36] = new Note(noteB, QUARTER_NOTE_120); //2
+        part[36] = new Note(noteB, EIGHTH_NOTE_120); //2
 
         part[37] = new Note(noteD, 0); //1
         part[38] = new Note(noteB, QUARTER_NOTE_120); //2
         part[39] = new Note(noteCsharp, 0); //1
         part[40] = new Note(noteA, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[41] = new Note(noteE, 0); //1
-        part[42] = new Note(noteCsharp, QUARTER_NOTE_120); //2
+        part[42] = new Note(noteCsharp, EIGHTH_NOTE_120); //2
 
         part[43] = new Note(noteE, 0); //1
         part[44] = new Note(noteCsharp, QUARTER_NOTE_120); //2
         part[45] = new Note(noteD, 0); //1
         part[46] = new Note(noteB, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[47] = new Note(noteE, 0); //1
-        part[48] = new Note(noteCsharp, QUARTER_NOTE_120); //2
+        part[48] = new Note(noteCsharp, EIGHTH_NOTE_120); //2
 
         part[49] = new Note(noteE, 0); //1
         part[50] = new Note(noteCsharp, QUARTER_NOTE_120); //2
         part[51] = new Note(noteD, 0); //1
         part[52] = new Note(noteB, QUARTER_NOTE_120 + EIGHTH_NOTE_120); //2
         part[53] = new Note(noteCsharp, 0); //1
-        part[54] = new Note(noteGsharp, QUARTER_NOTE_120); //2
+        part[54] = new Note(noteGsharp, EIGHTH_NOTE_120); //2
 
         part[55] = new Note(noteCsharp, 0); //1
-        part[56] = new Note(noteGsharp, 3 * HALF_NOTE_120); //2
+        part[56] = new Note(noteBflat, 3 * HALF_NOTE_120); //2
 
         part[57] = new Note(noteD, 0); //1
         part[58] = new Note(noteB, QUARTER_NOTE_120); //2
@@ -1473,7 +1473,7 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         part[299] = new Note(noteB4, 0); //1
         part[300] = new Note(noteGsharp, SIXTEENTH_NOTE_120); //2
         part[301] = new Note(noteB4, 0); //1
-        part[302] = new Note(noteGsharp, SIXTEENTH_NOTE_120);
+        part[302] = new Note(noteGsharp, SIXTEENTH_NOTE_120); //2
         part[303] = new Note(noteE, SIXTEENTH_NOTE_120);
         part[304] = new Note(noteE, SIXTEENTH_NOTE_120);
         part[305] = new Note(noteA4, SIXTEENTH_NOTE_120);
@@ -1597,7 +1597,7 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         part[42] = new Note(noteD, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[43] = new Note(noteD, EIGHTH_NOTE_120);
         part[44] = new Note(noteD, EIGHTH_NOTE_120);
-        part[45] = new Note(noteD, EIGHTH_NOTE_120)
+        part[45] = new Note(noteD, EIGHTH_NOTE_120);
 
         part[46] = new Note(noteG, QUARTER_NOTE_120 + EIGHTH_NOTE_120);
         part[47] = new Note(noteG, EIGHTH_NOTE_120);
@@ -1788,784 +1788,6 @@ public class SynthesizerActivity extends AppCompatActivity implements View.OnCli
         life.add(new Note(noteB4, WHOLE_NOTE_120));
 
         playSong(life);
-    }
-
-    // TODO: Delete once new functionality is working
-    private void playSchu() {
-        Song schu = new Song();
-
-        //bar 1
-        schu.add(new Note(noteB4, HALF_NOTE_120 + QUARTER_NOTE_120));
-        schu.add(new Note(noteCsharp5, HALF_NOTE_120));
-        schu.add(new Note(noteD5, QUARTER_NOTE_120));
-        schu.add(new Note(noteB4, HALF_NOTE_120 + QUARTER_NOTE_120));
-        schu.add(new Note(noteA4, QUARTER_NOTE_120));
-        schu.add(new Note(noteFsharp, QUARTER_NOTE_120));
-        schu.add(new Note(noteG, QUARTER_NOTE_120));
-        schu.add(new Note(noteD, HALF_NOTE_120));
-        schu.add(new Note(noteCsharp, QUARTER_NOTE_120));
-        schu.add(new Note(noteFsharp, 3*(HALF_NOTE_120 + QUARTER_NOTE_120)));
-
-        //bar 2
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 3
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 4
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 5
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 6
-        schu.add(new Note(noteFsharp5, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 7
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 8
-        schu.add(new Note(noteFsharp5, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 9
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 10
-        schu.add(new Note(noteD5, 0)); //ob
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteF, 0)); //vln2
-        schu.add(new Note(noteGsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteF, 0)); //vln2
-        schu.add(new Note(noteGsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 11
-        schu.add(new Note(noteE5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteF5, 0)); //ob
-        schu.add(new Note(noteB4, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteBflat4, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteBflat4, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteB4, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE5, 0)); //ob
-        schu.add(new Note(noteGsharp, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 12
-        schu.add(new Note(noteD5, 0)); //ob
-        schu.add(new Note(noteA, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA, 0)); //bass
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 13
-        schu.add(new Note(noteD5, 0)); //ob
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //bsn1
-        schu.add(new Note(noteBflat, 0)); //bsn2
-        schu.add(new Note(noteG, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //horn2
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //horn1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 14
-        schu.add(new Note(noteG, 0)); //horn1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 15
-        schu.add(new Note(noteFsharp5, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 16
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteFsharp, 0)); //horn
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //horn
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 17
-        schu.add(new Note(noteFsharp5, 0)); //ob
-        schu.add(new Note(noteFsharp, 0)); //horn
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteF, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //vln2 and bass
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteB, 0)); //vln2
-        schu.add(new Note(noteD, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 18
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteFsharp, 0)); //horn
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteDsharp, 0)); //vln2
-        schu.add(new Note(noteFsharp, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteBflat4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob
-        schu.add(new Note(noteB, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob
-        schu.add(new Note(noteG, 0)); //horn
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteBflat4, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 19
-        schu.add(new Note(noteD5, 0)); //fl and ob1 and cl1
-        schu.add(new Note(noteFsharp, 0)); //cl2
-        schu.add(new Note(noteA4, 0)); //ob2
-        schu.add(new Note(noteA, 0)); //bsn1
-        schu.add(new Note(noteFsharp, 0)); //bsn2
-        schu.add(new Note(noteFsharp, 0)); //horn
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //vln2
-        schu.add(new Note(noteA4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob2 and cl1
-        schu.add(new Note(noteG, 0)); //cl2
-        schu.add(new Note(noteB, 0)); //bsn1
-        schu.add(new Note(noteG, 0)); //bsn2
-        schu.add(new Note(noteD, 0)); //horn
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC5, 0)); //ob2 and cl1
-        schu.add(new Note(noteA4, 0)); //cl2
-        schu.add(new Note(noteC, 0)); //bsn1
-        schu.add(new Note(noteA, 0)); //bsn2
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteA4, 0)); //vln2
-        schu.add(new Note(noteC5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA4, 0)); //vln2
-        schu.add(new Note(noteC5, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 20
-        schu.add(new Note(noteD5, 0)); //fl and ob1
-        schu.add(new Note(noteA4, 0)); //cl2
-        schu.add(new Note(noteC5, 0)); //ob2 and cl1
-        schu.add(new Note(noteC, 0)); //bsn1
-        schu.add(new Note(noteA, 0)); //bsn2
-        schu.add(new Note(noteFsharp, 0)); //horn
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteA4, 0)); //vln2
-        schu.add(new Note(noteC5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA4, 0)); //vln2
-        schu.add(new Note(noteC5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //ob2 and cl1
-        schu.add(new Note(noteG, 0)); //cl2
-        schu.add(new Note(noteB, 0)); //bsn1
-        schu.add(new Note(noteG, 0)); //bsn2
-        schu.add(new Note(noteD, 0)); //horn
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteD, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteB4, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE5, 0)); //fl
-        schu.add(new Note(noteD5, 0)); //ob2 and cl1
-        schu.add(new Note(noteGsharp, 0)); //cl2
-        schu.add(new Note(noteD, 0)); //bsn1
-        schu.add(new Note(noteB, 0)); //bsn2
-        schu.add(new Note(noteE, 0)); //horn
-        schu.add(new Note(noteE, 0)); //bass
-        schu.add(new Note(noteB4, 0)); //vln2a
-        schu.add(new Note(noteGsharp, 0)); //vln2b
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteB4, 0)); //vln2a
-        schu.add(new Note(noteGsharp, 0)); //vln2b
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-
-        //bar 21
-        schu.add(new Note(noteE5, 0)); //fl and ob1
-        schu.add(new Note(noteB4, 0)); //cl1
-        schu.add(new Note(noteG, 0)); //cl2
-        schu.add(new Note(noteD5, 0)); //ob2
-        schu.add(new Note(noteD, 0)); //bsn1
-        schu.add(new Note(noteB, 0)); //bsn2
-        schu.add(new Note(noteE, 0)); //horn
-        schu.add(new Note(noteE, 0)); //bass
-        schu.add(new Note(noteB4, 0)); //vln2a
-        schu.add(new Note(noteGsharp, 0)); //vln2b
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA4, 0)); //vln2
-        schu.add(new Note(noteD5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteCsharp5, 0)); //ob2
-        schu.add(new Note(noteCsharp5, 0)); //cl1
-        schu.add(new Note(noteA4, 0)); //cl2
-        schu.add(new Note(noteCsharp, 0)); //bsn1
-        schu.add(new Note(noteA, 0)); //bsn2
-        schu.add(new Note(noteA, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteA, 0)); //vln2
-        schu.add(new Note(noteCsharp5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp5, 0)); //fl1 and ob1
-        schu.add(new Note(noteE5, 0)); //fl2 and ob2
-        schu.add(new Note(noteCsharp5, 0)); //cl1
-        schu.add(new Note(noteBflat4, 0)); //cl2
-        schu.add(new Note(noteCsharp, 0)); //bsn1
-        schu.add(new Note(noteFsharp, 0)); //bsn2
-        schu.add(new Note(noteFsharp, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //horn2
-        schu.add(new Note(noteD, 0)); //tpt
-        schu.add(new Note(noteCsharp, 0)); //tbn1
-        schu.add(new Note(noteBflat, 0)); //tb2
-        schu.add(new Note(noteFsharp, 0)); //tbn3 and timp
-        schu.add(new Note(noteA, 0)); //bass
-        schu.add(new Note(noteG, 0)); //vln2
-        schu.add(new Note(noteFsharp5, 0)); //vln1a
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1b
-        schu.add(new Note(noteC5, 0)); //vln2a
-        schu.add(new Note(noteBflat4, 0)); //vln2b
-        schu.add(new Note(noteFsharp5, 0)); //vln1a
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1b
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC5, 0)); //vln2a
-        schu.add(new Note(noteBflat4, 0)); //vln2b
-        schu.add(new Note(noteFsharp5, 0)); //vln1a
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1b
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC5, 0)); //vln2a
-        schu.add(new Note(noteBflat4, 0)); //vln2b
-        schu.add(new Note(noteFsharp5, 0)); //vln1a
-        schu.add(new Note(noteE5, SIXTEENTH_NOTE_120)); //vln1b
-
-        //bar 22
-        schu.add(new Note(noteG5, 0)); //fl1 and ob1
-        schu.add(new Note(noteE5, 0)); //fl2 and ob2
-        schu.add(new Note(noteCsharp5, 0)); //cl1
-        schu.add(new Note(noteBflat4, 0)); //cl2
-        schu.add(new Note(noteCsharp, 0)); //bsn1 and tbn1
-        schu.add(new Note(noteFsharp, 0)); //bsn2 and tbn3
-        schu.add(new Note(noteG, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //horn2
-        schu.add(new Note(noteD5, 0)); //tpt1
-        schu.add(new Note(noteD, 0)); //tpt2
-        schu.add(new Note(noteBflat, 0)); //tbn2
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC5, 0)); //vln2a
-        schu.add(new Note(noteBflat4, 0)); //vln2b
-        schu.add(new Note(noteG5, 0)); //vln1a
-        schu.add(new Note(noteE5, EIGHTH_NOTE_120)); //vln1b
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG5, 0)); //cl1
-        schu.add(new Note(noteE5, 0)); //cl2
-        schu.add(new Note(noteCsharp, 0)); //bsn1
-        schu.add(new Note(noteBflat, 0)); //bsn2
-        schu.add(new Note(noteG, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //horn2
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteE, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteG, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln 1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp5, 0)); //fl1 and ob1
-        schu.add(new Note(noteE5, 0)); //fl2 and ob2
-        schu.add(new Note(noteCsharp5, 0)); //cl1
-        schu.add(new Note(noteBflat4, 0)); //cl2
-        schu.add(new Note(noteCsharp, 0)); //bsn1
-        schu.add(new Note(noteFsharp, 0)); //bsn2
-        schu.add(new Note(noteFsharp, 0)); //horn1
-        schu.add(new Note(noteE, 0)); //horn2
-        schu.add(new Note(noteD, 0)); //tpt
-        schu.add(new Note(noteCsharp, 0)); //tbn1
-        schu.add(new Note(noteBflat, 0)); //tb2
-        schu.add(new Note(noteFsharp, 0)); //tbn3 and timp
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteE, 0)); //vln2
-        schu.add(new Note(noteG, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp5, 0)); //cl1
-        schu.add(new Note(noteFsharp, 0)); //horn1
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC, 0)); //vln2
-        schu.add(new Note(noteC, SIXTEENTH_NOTE_120)); //vln1
-        schu.add(new Note(noteFsharp, 0)); //bass
-        schu.add(new Note(noteC, 0)); //vln2a
-        schu.add(new Note(noteC, SIXTEENTH_NOTE_120)); //vln1
-
-        playSong(schu);
     }
 
     private void delay(int duration) {
